@@ -1,0 +1,79 @@
+.fixed {
+    position: fixed;
+    bottom: 0;
+    border: 2px solid cadetblue;
+    color:azure;
+    left: 0;
+}
+
+.virat {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rajat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 400px;
+}
+
+.phil {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    margin-left: 200px;
+}
+
+.jitesh {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    margin-left: 0px;
+}
+
+.yash {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    margin-left: 400px;
+}
+
+.liam {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 400px;
+}
+
+.josh {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.faf {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-left: 150px;
+}
+
+.maxwell {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    margin-left: 250px;
+}
+
+.siraj {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-left: 350px;
+}
+
+img{
+    opacity: 0.5;
+}

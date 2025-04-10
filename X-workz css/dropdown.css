@@ -1,0 +1,68 @@
+ul.horizontal,
+ul.vertical {
+    list-style-type: none;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+ul.horizontal li {
+    display: inline-block;
+    padding: 20px 30px;
+    margin-left: 20px;
+}
+
+ul.vertical li {
+    display: block;
+    padding: 15px 30px;
+    margin-top: 10px;
+
+}
+
+li {
+    color: rgb(19, 4, 4);
+    transition: background-color 0.3s;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    color: rgb(19, 4, 4);
+    padding: 10px;
+}
+
+li:hover {
+    background-color: blue;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+img{
+    opacity: 0.5;
+}
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: beige;
+    color: #000;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}

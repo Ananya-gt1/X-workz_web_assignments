@@ -1,0 +1,43 @@
+.horizontal {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.vertical {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+img {
+    margin-right: 10px;
+}
