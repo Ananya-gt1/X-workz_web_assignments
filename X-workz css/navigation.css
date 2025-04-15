@@ -1,0 +1,44 @@
+ .navClass  {
+   background-color: palevioletred;
+   border-radius: 3vh;
+  
+}
+
+.navClass ul li {
+
+    display: inline-block;
+
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    color: white;
+    padding: 20px;
+}
+
+li:hover {
+    background-color:aqua;
+    border-radius: 2vh;
+}
+
+a {
+    text-decoration: solid;
+    color: #f8f4f4;
+}
+#searchId{
+    display: inline-block;
+    margin-left: 700px;
+}
+#searchId input{
+  background-image: url(image\ copy\ 14.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-left: 30px; 
+  height: 30px;
+  border-radius: 3vh;
+  border: 1px solid #070707;
+}
