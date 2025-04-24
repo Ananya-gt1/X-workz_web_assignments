@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bremaind.js"></script>
+</head>
+<body>
+    <form name="formName" onsubmit="return submitForm()">
+        <div>
+            <label for="nameId" >Name</label>
+            <span style="color:red;">*</span>
+            <span>:</span>
+            <input type="text" id="nameId" name="nameName" required>
+        </div>
+        <div>
+            <label for="numberId" >Number</label>
+            <span style="color:red;">*</span>
+            <span>:</span>
+            <input type="number" id="numberId" name="numNumber"  pattern="^\d{10}$" required 
+            title="Please enter exactly 10 digits">
+        </div>
+        <div>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Clear">Clear</button>
+        </div>
+</body>
+</html>
