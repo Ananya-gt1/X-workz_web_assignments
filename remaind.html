@@ -15,11 +15,28 @@
             <input type="text" id="nameId" name="nameName" required>
         </div>
         <div>
+            <label for="emailId">Email</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="email" id="emailId"name="emailEmail" required>
+        </div>
+        <div>
             <label for="numberId" >Number</label>
             <span style="color:red;">*</span>
             <span>:</span>
-            <input type="number" id="numberId" name="numNumber"  pattern="^\d{10}$" required 
-            title="Please enter exactly 10 digits">
+            <input type="number" id="numberId" name="numNumber" required>
+        </div>
+        <div>
+            <label for="passwordId">Password</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="password" id="passwordId" name="passWord" required>
+        </div>
+        <div>
+            <label for="confirmId">Confirm Password</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="password" id="confirmId" name="confirmPass" required>
         </div>
         <div>
             <button type="submit" value="Submit">Submit</button>
