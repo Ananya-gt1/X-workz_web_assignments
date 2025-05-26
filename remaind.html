@@ -7,12 +7,17 @@
     <script src="bremaind.js"></script>
 </head>
 <body>
+    <!-- <button onclick="onClick()">Click Me</button> -->
+    <!-- <span class="nameErrorClass">yes</span> -->
+    <!-- <span name="name">No</span> -->
+    <!-- <span name="span">Hello</span> -->
     <form name="formName" onsubmit="return submitForm()">
         <div>
             <label for="nameId" >Name</label>
             <span style="color:red;">*</span>
             <span>:</span>
             <input type="text" id="nameId" name="nameName" required>
+           <span id="nameErrorId" style="color: red;"></span>
         </div>
         <!-- <div>
             <label for="emailId">Email</label>
@@ -25,12 +30,14 @@
             <span style="color:red;">*</span>
             <span>:</span>
             <input type="number" id="numberId" name="numNumber" required>
+            <span id="spanNumId" style="color: red;"></span>
         </div>
         <div>
             <label for="ageId" >Age</label>
             <span style="color:red;">*</span>
             <span>:</span>
             <input type="number" id="ageId" name="ageAge" required>
+            <span id="ageSpanId" style="color: red;"></span>
         </div>
         <!-- <div>
             <label for="passwordId">Password</label>
@@ -46,7 +53,7 @@
         </div> -->
         <div>
             <button type="submit" value="Submit">Submit</button>
-            <button type="reset" value="Clear">Clear</button>
+            <button type="reset" value="Clear" onClick="clearForm()">Clear</button>
         </div>
 </body>
 </html>
