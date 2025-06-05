@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05_06_2025</title>
+    <script src="form5.js"></script>
+    <style>
+        .colorClass{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form name="formName" onsubmit="return validate()">
+        <div>
+        <label for="nameId">Name</label>
+        <span class="colorClass">*</span>
+        <span>:</span>
+        <input type="text" name="nameName" id="nameId" required>
+        </div>
+
+        <div>
+        <label for="emailId">E-mail</label>
+        <span class="colorClass">*</span>
+        <span>:</span>
+        <input type="email" name="emailEmail" id="emailId" required>
+        </div>
+
+        <div>
+        <label for="passwordId">Password</label>
+        <span class="colorClass">*</span>
+        <span>:</span>
+        <input type="password" name="passwordPassword" id="passwardId" required>
+        </div>
+
+        <div>
+        <label for="cpasswordId">Confirm Password</label>
+        <span class="colorClass">*</span>
+        <span>:</span>
+        <input type="password" name="confirmPassword" id="cpasswardId" required>
+        </div>
+
+        <div>
+        <label for="genderId">Gender</label>
+        <span class="colorClass">*</span>
+        <span>:</span>
+        <label for="">Female</label>
+        <input type="radio" name="genderGender" id="genderId" required>
+        <label for="">Male</label>
+        <input type="radio" name="genderGender" id="genderId" required>
+        </div>
+
+        <div>
+        <label for="courseId" name="courseCourse">Course</label>
+        <span class="colorClass">*</span>
+        <span>:</span>
+        <label for="">Java</label>
+        <input type="checkbox" name="courseCourse" id="courseId" >
+        <label for="">SQL</label>
+         <input type="checkbox" name="courseCourse" id="courseId" >
+        <label for="">Web</label>
+         <input type="checkbox" name="courseCourse" id="courseId" >
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>
