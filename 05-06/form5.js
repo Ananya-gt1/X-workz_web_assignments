@@ -4,7 +4,6 @@ function validate() {
     let email = document.formName.emailEmail.value;
     let password = document.formName.passwordPassword.value;
     let cpassword = document.formName.confirmPassword.value;
-    let gender = document.formName.genderGender.value;
     let Course = document.formName.courseCourse.value;
 
     if (names.length > 20) {
@@ -25,6 +24,14 @@ function validate() {
     }
     else {
         alert('Form submitted successfully!');
+    }
+    const gender= document.querySelector('input[name="genderGender"]:checked')
+    if(!gender){
+        alert('select gender')
+    }
+    const course= document.querySelector('input[name="courseCourse"]:checked')
+    if(!course){
+        alert('select course')
     }
     return val;
 }
